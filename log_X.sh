@@ -2,7 +2,7 @@
 
 touch /tmp/login_X
 
-nchksum=`md5sum /home/username/auth1.log | awk -F " " '{print $1}'`
+nchksum=`md5sum /home/username/auth_X.log | awk -F " " '{print $1}'`
 ochksum=`cat /tmp/login_X`
 
 if [ "$nchksum" != "$ochksum" ]; then
