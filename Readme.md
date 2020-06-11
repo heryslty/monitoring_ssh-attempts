@@ -10,6 +10,7 @@ bash scrip ini digunakan untuk melihat percobaan loging ssh pada setiap AlphaCli
 copy file client_X.sh ke AlphaClient (disini saya mengcopy ke dir /home/username/). sesuaikan isi dari file tersebut
 ```
 username = username dari server
+remote_host = Ip dari server
 ```
 kemudian buat job crontab
 ```
